@@ -17,7 +17,6 @@ var myStore = new SequelizeStore({
   db: db.sequelize,
 });
 
-console.log(config.use_env_variable);
 
 // Middleware
 app.use(express.urlencoded({ extended: false }));
